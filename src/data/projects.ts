@@ -36,8 +36,8 @@ export const PROJECTS: Project[] = [
     description:
       'Dashboard responsivo desenvolvido utilizando Chakra Ui, framework que utiliza o paradigma de interface declarativa',
     repoLink: 'https://github.com/IgoCarvalho/dashgo',
-    siteLink: 'https://bora-codar-conversor-de-moedas.vercel.app/',
-    imageUrl: '/images/painel-de-clima-preview.jpg',
+    siteLink: 'https://dashgo-sable-xi.vercel.app/',
+    imageUrl: '/images/dashgo-preview.jpg',
     technologies: ['React', 'Next', 'Chakra Ui', 'TypeScript', 'Recharts'],
   },
   {
