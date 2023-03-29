@@ -1,6 +1,21 @@
+import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
+import { useState } from 'react';
 import { Tooltip } from './Tooltip';
 
 export function LinksSocial() {
+  const [, copy] = useCopyToClipboard();
+  const [isCopied, setIsCopied] = useState(false);
+
+  function handleCopy() {
+    setIsCopied(true);
+
+    copy('igocarvalho00@gmail.com');
+
+    setInterval(() => {
+      setIsCopied(false);
+    }, 5000);
+  }
+
   return (
     <div className="flex items-center gap-4">
       <Tooltip title="Link para meu LinkedIn">
@@ -56,11 +71,12 @@ export function LinksSocial() {
           </div>
         </Tooltip>
 
-        <Tooltip title="Copiar e-mail">
+        <Tooltip title={isCopied ? 'Copiado!' : 'Copiar e-mail'}>
           <button
             title="Copiar"
             type="button"
             className="flex gap-2 items-center border focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-3 py-2.5 bg-zinc-700 text-white border-gray-500 hover:bg-zinc-600 hover:border-zinc-500 focus:ring-zinc-700"
+            onClick={handleCopy}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

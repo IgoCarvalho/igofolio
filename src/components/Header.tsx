@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <nav className="fixed w-full p-3 border-zinc-800 border-b bg-zinc-900 ">
+    <nav className="fixed z-[150] w-full p-3 border-zinc-800 border-b bg-zinc-900/60 backdrop-blur-lg ">
       <div className="xl:max-w-[1280px] w-full flex flex-wrap items-center justify-between mx-auto">
         <a href="#" className="flex items-center">
           <span className=" text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#42d392] via-[#42d392] to-[#647eff]">
