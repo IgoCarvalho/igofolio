@@ -3,32 +3,29 @@ import { Project } from '@/types/project';
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    name: 'Conversor de moedas',
+    name: 'Criador de formulários',
     description:
-      'Aplicação desenvolvida com objetivo de tratar da conversão de valores entre diversas moedas pelo mundo',
-    repoLink:
-      'https://github.com/IgoCarvalho/bora-codar/tree/main/09-conversor-de-moeda',
-    siteLink: 'https://bora-codar-conversor-de-moedas.vercel.app/',
-    imageUrl: '/images/conversor-de-moedas-preview.jpg',
+      'Aplicação desenvolvida com objetivo de criar formulários dinamicamente com base nos dados fornecidos pelo usuário',
+    repoLink: 'https://github.com/IgoCarvalho/form-builder',
+    siteLink: 'https://form-builder-igo.vercel.app/',
+    imageUrl: '/images/form-builder-preview.jpg',
     technologies: [
       'React',
-      'Next',
+      'Nextjs',
       'TypeScript',
-      'Recharts',
-      'Sass',
-      'Free currency API',
+      'Tailwindcss',
+      'Shadcn UI',
+      'Prisma',
     ],
   },
   {
     id: '2',
-    name: 'Painel de clima',
-    description:
-      'Aplicação desenvolvida com objetivo de exibir informações sobre o clima atual e previsão para os próximos dias',
-    repoLink:
-      'https://github.com/IgoCarvalho/bora-codar/tree/main/10-pagina-de-clima',
-    siteLink: 'https://10-boracodar-weather-pane.vercel.app/',
-    imageUrl: '/images/painel-de-clima-preview.jpg',
-    technologies: ['React', 'TypeScript', 'Weather API', 'Sass', 'Vite'],
+    name: 'Painel de administração',
+    description: 'Painel de administração desenvolvido usando Tailwindcss',
+    repoLink: 'https://github.com/IgoCarvalho/admin-ui-tailwind',
+    siteLink: 'https://admin-ui-tailwind.vercel.app/',
+    imageUrl: '/images/admin-tailwind-preview.jpg',
+    technologies: ['React', 'Nextjs', 'TypeScript', 'Tailwindcss'],
   },
   {
     id: '3',
@@ -53,21 +50,14 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '5',
-    name: 'Purr',
+    name: 'Painel de clima',
     description:
-      'Uma rede social feita para amantes de gatos, onde voce pode ver e postar suas fotos de gatinhos',
-    repoLink: 'https://github.com/IgoCarvalho/purr',
-    siteLink: 'https://purr-test.netlify.app/',
-    imageUrl: '/images/purr-preview.jpg',
-    technologies: [
-      'Vue',
-      'Node.js',
-      'TypeScript',
-      'fastify',
-      'zod',
-      'prisma',
-      'cloudinary',
-    ],
+      'Aplicação desenvolvida com objetivo de exibir informações sobre o clima atual e previsão para os próximos dias',
+    repoLink:
+      'https://github.com/IgoCarvalho/bora-codar/tree/main/10-pagina-de-clima',
+    siteLink: 'https://10-boracodar-weather-pane.vercel.app/',
+    imageUrl: '/images/painel-de-clima-preview.jpg',
+    technologies: ['React', 'TypeScript', 'Weather API', 'Sass', 'Vite'],
   },
   {
     id: '6',

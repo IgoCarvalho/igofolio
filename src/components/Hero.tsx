@@ -22,8 +22,10 @@ export function Hero() {
           </div>
 
           <p className={`max-w-[470px] mt-5 text-lg`}>
-            Tenho 24 anos, busco uma recolocação no mercado de trabalho, gosto e
-            tenho facilidade em aprender coisas novas!
+            Desenvolvedor com mais de 3 anos de experiência, atuando em projetos
+            de diferentes tamanhos e desenvolvendo soluções para resolver
+            necessidades de diferentes nichos, desde E-commerces, Sites
+            institucionais e Plataformas SaaS
           </p>
 
           <div className="mt-8">

@@ -20,7 +20,7 @@ export function ProjectCard({ data }: ProjectCardProps) {
           alt="Nlw"
         />
       </a>
-      <div className="p-5 flex flex-col">
+      <div className="p-5 flex flex-col flex-1">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {data.name}
         </h5>
@@ -28,7 +28,7 @@ export function ProjectCard({ data }: ProjectCardProps) {
           {data.description}
         </p>
 
-        <div className="flex  justify-between">
+        <div className="flex  justify-between mt-auto">
           <div className="flex gap-2">
             <Tooltip title="Repositório no GitHub">
               <a
