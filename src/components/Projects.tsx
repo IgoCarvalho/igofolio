@@ -11,7 +11,7 @@ export function Projects() {
         </p>
       </div>
 
-      <div className="mt-10 px-4 flex flex-wrap gap-5 justify-between">
+      <div className="mt-10 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {PROJECTS.map((project) => (
           <ProjectCard key={project.id} data={project} />
         ))}

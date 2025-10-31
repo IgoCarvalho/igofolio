@@ -17,7 +17,7 @@ export function LinksSocial() {
   }
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center flex-wrap gap-4">
       <Tooltip title="Link para meu LinkedIn">
         <a href="https://www.linkedin.com/in/igocarvalho/" title="LinkedIn">
           <svg

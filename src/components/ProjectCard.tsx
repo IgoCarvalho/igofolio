@@ -10,12 +10,12 @@ interface ProjectCardProps {
 
 export function ProjectCard({ data }: ProjectCardProps) {
   return (
-    <div className="max-w-sm border flex flex-col rounded-lg shadow bg-zinc-800 border-zinc-700">
-      <a href={data.siteLink} className="max-w-sm h-64 block">
+    <div className="max-w-sms border flex flex-col rounded-lg shadow bg-zinc-800 border-zinc-700">
+      <a href={data.siteLink} className=" h-64 block">
         <Image
           width={500}
           height={500}
-          className="rounded-t-lg w-full h-full max-h-64 object-cover"
+          className="rounded-t-lg w-full h-full max-h-64 object-cover aspect-video"
           src={data.imageUrl}
           alt="Nlw"
         />

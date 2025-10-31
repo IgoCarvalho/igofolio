@@ -8,7 +8,7 @@ export function Hero() {
       id="home"
       className={`w-full flex md:flex-row flex-col sm:py-16 py-6 bg-zinc-900 min-h-screen bg-blusrred bg-cover bg-gradisent-to-r from-[#08112d] to-[#3c3e56]`}
     >
-      <div className="flex xl:max-w-[1280px] w-full mx-auto">
+      <div className="flex max-w-[1280px] w-full mx-auto md:flex-row flex-col-reverse">
         <div
           className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
         >
@@ -33,7 +33,9 @@ export function Hero() {
           </div>
         </div>
 
-        <div className={`flex-1 flex items-center md:my-0 my-10 relative`}>
+        <div
+          className={`flex-1 flex items-center justify-center md:justify-start px-4 md:px-0 md:my-0 my-10 relative`}
+        >
           <Image
             src="/images/my-photo.png"
             alt="billing"
