@@ -121,3 +121,7 @@
     @apply bg-background text-foreground font-sans;
   }
 }
+
+.app-container {
+  @apply container xl:max-w-7xl mx-auto;
+}

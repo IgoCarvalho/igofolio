@@ -18,7 +18,7 @@ export function Header() {
     <nav className="fixed top-0 left-0 right-0 z-50 p-4">
       <div
         className={cn(
-          "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-background/90 backdrop-blur-sm border rounded-full transition-all duration-300 ease-in-out",
+          "app-container px-4 sm:px-6 lg:px-8 bg-background/90 backdrop-blur-sm border rounded-full transition-all duration-300 ease-in-out",
           { "bg-transparent backdrop-blur-none border-transparent": !scrolled }
         )}
       >

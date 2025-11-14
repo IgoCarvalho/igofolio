@@ -8,7 +8,7 @@ import { GridPattern } from "../ui/grid-pattern";
 export function HeroSection() {
   return (
     <section className="min-h-screen p-4 flex">
-      <div className="relative grow mx-auto rounded-xl py-25 px-4 sm:px-15 space-y-15 lg:space-y-0 lg:flex flex-row-reverse items-center justify-between overflow-hidden bg-gradient-to-br from-background via-background to-primary/5 border container xl:max-w-7xl ">
+      <div className="relative grow app-container rounded-xl py-25 px-4 sm:px-15 space-y-15 lg:space-y-0 lg:flex flex-row-reverse items-center justify-between overflow-hidden bg-gradient-to-br from-background via-background to-primary/5 border">
         <GridPattern
           width={20}
           height={20}
